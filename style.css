@@ -1,0 +1,39 @@
+/**
+ * index.scss
+ * - Add any styles you want here!
+ */
+
+body {
+  background-color: #e9ebff;
+}
+.navbar-brand {
+    color: #8dadde;
+}
+.navbar {
+  background-color: #0c0c0c;
+  color: #8dadde;
+}
+.nav-link{
+  color: #8dadde;
+}
+.navlink:hover {
+  color: #1d384d;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+.jumbotron {
+  max-width: 100%;
+  max-height: 100%;
+  padding: 5em inherit;
+  margin: 0em;
+  background-image: url(hypno_leaf.jpg);
+  background-size: cover;
+  clear:both;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  margin: 0em;
+  padding: 0em;
+}
