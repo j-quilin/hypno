@@ -57,6 +57,13 @@ body {
   src:url(varela-round/VarelaRound-Regular.oft) format("opentype");
 }
 
+#self {
+  margin-top: 5rem;
+  margin-left: 10rem;
+  width: 20em;
+  border-radius: 50%;
+}
+
 #mesmer {
   margin-top: 10rem;
   font-family: amatic;
@@ -97,4 +104,26 @@ body {
 @-o-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+.row {
+  height: 100%;
+}
+
+.left{
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  background-color:#3d231b;
+  height : 100%;
+  color : #FFF;
+
+}
+.right{
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  background-color:#FFF;
+  height : 100%;
+  color : #3d231b;
 }
