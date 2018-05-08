@@ -28,18 +28,7 @@ body {
   max-height: 100%;
   height: 97vh;
   margin: 0em;
-  background:
-  /* top, transparent red */
-  linear-gradient(
-    rgba(255, 255, 255, 0.35),
-    rgba(255, 255, 255, 0.35)
-  ),
-  /* your image */
-  url(hypno_leaf.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background: contain;
-  clear:both;
+  background: #fff;
 }
 .img-fluid {
   max-width: 100%;
