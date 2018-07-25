@@ -38,10 +38,10 @@ body {
 }
 @font-face {
   font-family: amatic;
-  src:url(Amatic/AmaticSC-Regular.ttf) format("truetype");
+  src:url(amatic/AmaticSC-Regular.ttf) format("truetype");
 }
 
-@@font-face {
+@font-face {
   font-family: varela;
   src:url(varela-round/VarelaRound-Regular.oft) format("opentype");
 }
@@ -53,17 +53,29 @@ body {
   border-radius: 50%;
 }
 
-#mesmer {
+#mesmer{
   margin-top: 10rem;
   font-family: amatic;
   font-size: 190px;
-  src:url(Amatic/AmaticSC-Regular.ttf) format("truetype");
+  src:url(amatic/AmaticSC-Regular.ttf) format("truetype");
 
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
    -moz-animation: fadein 2s; /* Firefox < 16 */
     -ms-animation: fadein 2s; /* Internet Explorer */
      -o-animation: fadein 2s; /* Opera < 12.1 */
         animation: fadein 2s;
+}
+#msb{
+    margin-top: 10rem;
+    font-family: varela;
+    font-size: 190px;
+    src:url(varela-round/VarelaRound-Regular.oft) format("opentype");
+
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 2s; /* Firefox < 16 */
+      -ms-animation: fadein 2s; /* Internet Explorer */
+       -o-animation: fadein 2s; /* Opera < 12.1 */
+          animation: fadein 2s;
 }
 
 @keyframes fadein {
