@@ -26,7 +26,7 @@ body {
 .jumbotron {
   max-width: 100%;
   max-height: 100%;
-  height: 97vh;
+  height: 75rem;
   margin: 0em;
   background: #fff;
 }
@@ -54,6 +54,7 @@ body {
 
 #mesmer{
   margin-top: 10rem;
+  margin-bottom: 7rem;
   font-family: amatic;
   font-size: 15rem;
 
@@ -67,7 +68,6 @@ body {
     margin-top: 10rem;
     font-family: varela;
     font-size: 10rem;
-    border-top: 1px solid #000;
 
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
      -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -127,4 +127,14 @@ body {
   color : #3d231b;
 }
 .list-group {
+}
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  border-style: inset;
+  border-width: 1px;
+  background-color: #000;
 }
