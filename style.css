@@ -40,10 +40,9 @@ body {
   font-family: amatic;
   src:url(amatic/AmaticSC-Regular.ttf) format("truetype");
 }
-
 @font-face {
   font-family: varela;
-  src:url(varela-round/VarelaRound-Regular.oft) format("opentype");
+  src:url(varela-round/VarelaRound-Regular.otf) format("opentype");
 }
 
 #self {
@@ -56,8 +55,7 @@ body {
 #mesmer{
   margin-top: 10rem;
   font-family: amatic;
-  font-size: 190px;
-  src:url(amatic/AmaticSC-Regular.ttf) format("truetype");
+  font-size: 15rem;
 
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
    -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -68,8 +66,8 @@ body {
 #msb{
     margin-top: 10rem;
     font-family: varela;
-    font-size: 190px;
-    src:url(varela-round/VarelaRound-Regular.oft) format("opentype");
+    font-size: 10rem;
+    border-top: 1px solid #000;
 
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
      -moz-animation: fadein 2s; /* Firefox < 16 */

@@ -11,31 +11,7 @@
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-  <script>
-window.onload = function(){
-var canvas = document.getElementsByClassName("myCanvas");
-var context = canvas.getContext("2d");
 
-var radius = 0;
-var angle = 0;
-
-context.lineWidth = 3;
-context.strokeStyle = "#000"; // black
-context.beginPath();
-context.moveTo(canvas.width / 2, canvas.height / 2);
-
-for (var n = 0; n < 150; n++) {
-radius += 0.75;
-// make a complete circle every 50 iterations
-angle += (Math.PI * 2) / 50;
-var x = canvas.width / 2 + radius * Math.cos(angle);
-var y = canvas.height / 2 + radius * Math.sin(angle);
-context.lineTo(x, y);
-}
-
-context.stroke();
-};
-</script>
 
 </head>
 
@@ -68,8 +44,11 @@ context.stroke();
   </nav>
 
     <div class="jumbotron jumbotron-fluid">
-      <h1 class="d-flex justify-content-center" id="mesmer">Mesmer me Happy</h1>
-      <h1 class="d-flex justify-content-center" id="msb">Mind Soul Beauty</h1>
+      <h2 class="d-flex justify-content-center" id="mesmer">Mesmer me Happy</h1>
+
+        <br/>
+        
+      <h2 class="d-flex justify-content-center" id="msb">Mind Soul Beauty</h1>
     </div>
 
   <!--
@@ -80,15 +59,40 @@ context.stroke();
     How about a simple folio page to show off everything you're going to make!
 
   -->
-  <canvas class="myCanvas" width="250" height="250" style="border:1px solid black;">
-  </canvas>
-  <canvas class="myCanvas" width="250" height="250" style="border:1px solid black;">
-  </canvas>
-  <canvas class="myCanvas" width="250" height="250" style="border:1px solid black;">
-  </canvas>
+  <a href="" class="myCanvas" width="250" height="250" style="border:1px solid black;">
+  </a>
+  <a href="" class="myCanvas" width="250" height="250" style="border:1px solid black;">
+  </a>
+  <a href="" class="myCanvas" width="250" height="250" style="border:1px solid black;">
+  </a>
 
+  <script>
+  window.onload = function(){
+  var canvas = document.getElementsByClassName("myCanvas");
+  var context = canvas.getContext("2d");
+
+  var radius = 0;
+  var angle = 0;
+
+  context.lineWidth = 10;
+  context.strokeStyle = "#0096FF"; // blue-ish color
+  context.beginPath();
+  context.moveTo(canvas.width / 2, canvas.height / 2);
+
+  for (var n = 0; n < 150; n++) {
+  radius += 0.75;
+  // make a complete circle every 50 iterations
+  angle += (Math.PI * 2) / 50;
+  var x = canvas.width / 2 + radius * Math.cos(angle);
+  var y = canvas.height / 2 + radius * Math.sin(angle);
+  context.lineTo(x, y);
+  }
+
+  context.stroke();
+  };
+  </script>
 
   <!-- Scripts -->
-  <script src="scripts/index.js"></script>
+
 </body>
 </html>
