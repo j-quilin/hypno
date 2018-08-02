@@ -138,3 +138,17 @@ hr {
   border-width: 1px;
   background-color: #000;
 }
+.container-fluid {
+  width: 100%;
+  align-content: center;
+}
+.myCanvas {
+  background-color: #000;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 7rem;
+  color: #FFF;
+  width: 24rem;
+  height: 24rem;
+  margin: 0.5rem 2.5rem;
+}
