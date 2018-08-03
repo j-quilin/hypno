@@ -152,3 +152,12 @@ hr {
   height: 24rem;
   margin: 0.5rem 2.5rem;
 }
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 7.4em solid transparent;
+  border-right: 7.4em solid transparent;
+  border-top: 14.8em solid black;
+  margin: 3.5rem;
+  margin-top: 10rem;
+}
