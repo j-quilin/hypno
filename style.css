@@ -6,6 +6,9 @@
 body {
   background-color: #e9ebff;
 }
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
 .navbar-brand {
     color: #8dadde;
 }
@@ -165,3 +168,6 @@ hr {
 #about {
   width: 50%;
 }
+h3 {
+  font-family: amatic;
+} 
