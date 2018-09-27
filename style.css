@@ -48,8 +48,9 @@ body {
 #self {
   margin-top: 5rem;
   margin-left: 10rem;
-  width: 20em;
+  width: 28rem;
   border-radius: 50%;
+  border: 15px double rgba(141, 173, 222, 0.5);;
 }
 
 #mesmer{
