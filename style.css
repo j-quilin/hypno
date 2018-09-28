@@ -10,6 +10,13 @@
   font-family: varela;
   src:url(varela-round/VarelaRound-Regular.otf) format("opentype");
 }
+div {
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2.2s; /* Firefox < 16 */
+   -ms-animation: fadein 2.2s; /* Internet Explorer */
+    -o-animation: fadein 2.2s; /* Opera < 12.1 */
+       animation: fadein 2.2s;
+}
 body {
   background-color: #e9ebff;
 }
@@ -63,22 +70,22 @@ p {
   font-family: amatic;
   font-size: 15rem;
 
-  -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
-   -moz-animation: fadein 4s; /* Firefox < 16 */
-    -ms-animation: fadein 4s; /* Internet Explorer */
-     -o-animation: fadein 4s; /* Opera < 12.1 */
-        animation: fadein 4s;
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadein 3s; /* Firefox < 16 */
+    -ms-animation: fadein 3s; /* Internet Explorer */
+     -o-animation: fadein 3s; /* Opera < 12.1 */
+        animation: fadein 3s;
 }
 #msb{
     margin-top: 10rem;
     font-family: varela;
     font-size: 10rem;
 
-    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
-     -moz-animation: fadein 4s; /* Firefox < 16 */
-      -ms-animation: fadein 4s; /* Internet Explorer */
-       -o-animation: fadein 4s; /* Opera < 12.1 */
-          animation: fadein 4s;
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 3s; /* Firefox < 16 */
+      -ms-animation: fadein 3s; /* Internet Explorer */
+       -o-animation: fadein 3s; /* Opera < 12.1 */
+          animation: fadein 3s;
 }
 
 @keyframes fadein {
@@ -131,8 +138,6 @@ p {
   height : 100%;
   color : #3d231b;
 }
-.list-group {
-}
 hr { 
   display: block;
   margin-top: 0.5em;
@@ -158,11 +163,9 @@ hr {
   margin: 0.5rem 2.5rem;
 }
 .triangle {
-  width: 0;
-  height: 0;
-  border-left: 7.4em solid transparent;
-  border-right: 7.4em solid transparent;
-  border-top: 14.8em solid black;
+  width: 220px;
+  height: 220px;
+  clip-path: polygon(0 0, 50% 100%, 100% 0);
   margin: 3.5rem;
   margin-top: 10rem;
 }
