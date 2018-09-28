@@ -54,7 +54,7 @@ p {
   margin-left: 7rem;
   width: 28rem;
   border-radius: 50%;
-  border: 15px double rgba(141, 173, 222, 0.5);;
+  border: 15px double rgba(141, 173, 222, 0.5);
 }
 
 #mesmer{
@@ -175,3 +175,9 @@ hr {
 h3 {
   font-family: amatic;
 } 
+.service {
+  width: 35%;
+  border: 5px solid rgba(141, 173, 222, 0.5);
+  margin: 6rem;
+  padding: 1.5rem;
+}
