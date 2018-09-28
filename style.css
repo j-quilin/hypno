@@ -23,9 +23,13 @@ body {
 p {
   font-family: Varela;
   margin-bottom: 3rem;
+  line-height: 2rem;
 }
 .navbar-brand {
     color: #8dadde;
+}
+li {
+list-style: none
 }
 .navbar {
   background-color: #0c0c0c;
@@ -177,12 +181,24 @@ hr {
   margin-right: 5rem;
   text-align: justify;
 }
-h3 {
+h2 {
   font-family: amatic;
+  padding-top: 8rem;
+  margin: 2rem;
+  text-align: center;
+  font-size: 3.3rem;
 } 
 .service {
   width: 35%;
   border: 5px solid rgba(141, 173, 222, 0.5);
   margin: 6rem;
   padding: 1.5rem;
+}
+.energy {
+  margin-right: 10rem;
+  margin-left: 10rem;
+  text-align: justify;
+}
+ol {
+  margin-bottom: 8rem;
 }
