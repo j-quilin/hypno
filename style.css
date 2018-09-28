@@ -31,6 +31,7 @@ p {
   background-color: #0c0c0c;
   color: #8dadde;
   position: absolute;
+  width: 100%;
 }
 .nav-link{
   color: #8dadde;
@@ -166,8 +167,9 @@ hr {
   width: 220px;
   height: 220px;
   clip-path: polygon(0 0, 50% 100%, 100% 0);
-  margin: 3.5rem;
+  margin: 4rem;
   margin-top: 10rem;
+  margin-bottom: 9rem;
 }
 #about {
   width: 44%;
