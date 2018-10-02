@@ -158,13 +158,8 @@ hr {
   width: 100%;
   align-content: center;
 }
-.btn-circle {
-  border:1px solid black; 
-  display: flex; 
-  align-items: center; 
-  margin: 0;
-}
 #myCanvas1 {
+  cursor: pointer;
   background-color: #000;
   border-radius: 50%;
   text-align: center;
@@ -173,11 +168,6 @@ hr {
   width: 24rem;
   height: 24rem;
   margin: 0.5rem 2.5rem;
-}
-#myCanvas1 .text-mind{
-  position: relative;
-  margin: auto;
-  cursor: pointer;
 }
 #myCanvas2 {
   background-color: #000;
@@ -189,11 +179,6 @@ hr {
   height: 24rem;
   margin: 0.5rem 2.5rem;
 }
-#myCanvas2 .text-soul{
-  position: relative;
-  margin: auto;
-  cursor: pointer;
-}
 #myCanvas3   {
   background-color: #000;
   border-radius: 50%;
@@ -203,11 +188,6 @@ hr {
   width: 24rem;
   height: 24rem;
   margin: 0.5rem 2.5rem;
-}
-#myCanvas3 .text-beauty{
-  position: relative;
-  margin: auto;
-  cursor: pointer;
 }
 .triangle {
   width: 220px;
